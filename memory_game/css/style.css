@@ -22,8 +22,9 @@ h1 {
 	font-size: 45px;
 	margin: 0 0 15px 0;
 }
-i {
-	font-size: 15px;
+.subtitle {
+	font-style: italic;
+	font-size: 13.5px;
 	font-weight: 200;
 	letter-spacing: .03em;
 	line-height: 20px;
@@ -69,19 +70,20 @@ footer {
 	letter-spacing: .08em;
 	font-weight: 500;
 }
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+	margin-bottom: 0;
+}
 .copyright	{
 	float: left;
 }
 .message {
 	float: right;
-}
-.clearfix:after {
-visibility: hidden;
-display: block;
-content: " ";
-clear: both;
-height: 0;
-font-size: 0;
 }
 .name {
 	color: #F15B31;
